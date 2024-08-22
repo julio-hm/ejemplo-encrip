@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    margin: 10px;
 }
 
 /* Contenedor principal */
@@ -59,21 +59,21 @@ button {
 
 /* Estilos específicos para los botones */
 .btn-primary {
-    background-color: #48645b;
+    background-color: #937b6fc9;
     color: white;
 }
 
 .btn-primary:hover {
-    background-color: #48645b;
+    background-color: #937b6fc9;
 }
 
 .btn-secondary {
-    background-color: #48645b;
+    background-color: #937b6fc9;
     color: white;
 }
 
 .btn-secondary:hover {
-    background-color: #48645b;
+    background-color: #937b6fc9;
 }
 
 /* Estilo responsivo */
