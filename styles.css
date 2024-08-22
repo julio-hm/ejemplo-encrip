@@ -1,0 +1,88 @@
+/* Estilos generales */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(120deg, #e9ddb9, #b1b3ed);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: rgba(147, 138, 138, 0.466);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Títulos e instrucciones */
+h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: .75rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Áreas de texto */
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    box-sizing: border-box;
+    resize: none;
+}
+
+/* Botones estilizados */
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos específicos para los botones */
+.btn-primary {
+    background-color: #48645b;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #48645b;
+}
+
+.btn-secondary {
+    background-color: #48645b;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #48645b;
+}
+
+/* Estilo responsivo */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

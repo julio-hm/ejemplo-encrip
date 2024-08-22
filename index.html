@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS externo -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Enlace a la fuente Roboto -->
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptador de Texto</h1>
+        <p>Instrucción: Solo se pueden ingresar letras minúsculas.</p> <!-- Instrucción añadida -->
+
+        <textarea id="inputText" placeholder="Ingrese el texto aquí..."></textarea><br>
+        <button onclick="encriptar()" class="btn-primary">Encriptar</button>
+        <button onclick="desencriptar()" class="btn-secondary">Desencriptar</button><br><br>
+        <textarea id="outputText" placeholder="Resultado..."></textarea><br>
+        <button onclick="copiarTexto()" class="btn-primary">Copiar</button>
+    </div>
+
+    <script src="script.js"></script> <!-- Enlace al archivo JavaScript externo -->
+</body>
+</html>
